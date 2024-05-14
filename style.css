@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+.image-carrossel{
+    object-fit: cover;/*preenche a div com o objeto*/
+    object-position: 0 60%;/*desloca a imagem no eixo X e Y*/
+    height: 400px;
+}
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jersey-20-charted-regular {
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.honk-uniquifier{
+    font-family: "Honk", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "MORF" 15,
+      "SHLN" 50;
+}  
+
+.fonte-titulo{
+    font-family: 'Pacifico', cursive;
+  }
+
+.fonte_secundaria{
+    font-family: 'Honk';
+}
+.fonte_terciaria{
+    font-family: 'Jersey 20 Charted';
+}
+.cor-especial{
+    color: darkred;
+}
+.botao-cor-carrossel{
+    color: black;
+}
+.botao-cor-especial{
+    background-color: rgb(2, 112, 255);
+    color: bisque;
+}
+.botao-cor-especial:hover{
+    background-color: darkblue;
+    color: white;
+}
+.borda-cor-especial{
+    border-color:darkblue;
+}
+.card-posicao-imagem{
+    object-fit: cover;/* preenche a div com o objeto*/
+    object-position: 0 60%;
+    height: 200px;
+}
+.card-largura{
+    max-width: 18rem;
+}
